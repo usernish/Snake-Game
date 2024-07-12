@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #006064;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00796b;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #388e3c;
+}
+
+.game-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game-canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #00796b;
+    background: #000;
+}
+
+#score, #highest-score, #game-status {
+    color: #d0170a;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #1487d3;
+}
